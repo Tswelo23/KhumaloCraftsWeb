@@ -1,74 +1,69 @@
-Khumalo Craft E-commerce Platform
-Welcome to the Khumalo Craft E-commerce Platform, a web application built using ASP.NET Core.
+Khumalo Craft E-commerce Platform  
 
-Description
-The Khumalo Craft E-commerce Platform serves as an online marketplace for artisanal products. It provides a seamless shopping experience for customers while enabling administrators to manage products and orders efficiently. The platform is designed with responsiveness, security, and scalability in mind, ensuring optimal performance across devices.
+Welcome to the Khumalo Craft E-commerce Platform, an ASP.NET Core-based web application designed to be a vibrant online marketplace for handcrafted goods. This platform is built to deliver an exceptional shopping experience while allowing administrators to effectively manage products and orders. It is optimized for security, scalability, and responsiveness to ensure outstanding performance across all devices.
 
-Key Features
-Homepage and Navigation:
+Project Overview  
+The Khumalo Craft E-commerce Platform aims to:  
+- Connect artisans with customers through a user-friendly online shopping experience.  
+- Provide an intuitive administrative panel for efficient product and order management.  
+- Prioritize seamless navigation, secure transactions, and a consistent design.  
 
-Showcase of featured products and quick access to main sections (Home, About Us, Contact Us).
-Responsive navbar for easy navigation on desktop and mobile.
-Product Management:
+Features  
+Homepage & Navigation  
+- Display featured products prominently.  
+- Quick access to key sections like *Home*, *About Us*, and *Contact Us*.  
+- A responsive navigation bar that works effortlessly across desktop and mobile devices.  
 
-Admin panel for adding, editing, and deleting products.
-Product details include name, description, image, and price.
-User Authentication and Authorization:
+Product Management  
+- Admin interface to add, update, and delete products.  
+- Each product entry includes details such as name, description, image, and price.  
 
-User registration, login, and profile management.
-Role-based access control for administrators and customers.
-Shopping Cart and Checkout:
+User Authentication  
+- User registration, login, and profile management.  
+- Role-based permissions for administrators and customers.  
 
-Add products to cart, review selections, and proceed to secure checkout.
-Integration with payment gateways for seamless transactions.
-Responsive Design:
+Shopping Cart & Checkout  
+- Add items to the cart, review them, and proceed to a secure checkout process.  
+- Integrated payment gateway support for smooth and secure transactions.  
 
-Optimized for various screen sizes to provide a consistent user experience.
-SEO and Accessibility:
+Responsive Design  
+- Optimized layouts for desktop, tablet, and mobile viewing.  
 
-SEO-friendly URLs and metadata for improved search engine visibility.
-Accessibility features to ensure usability for all users.
-Technologies Used
-ASP.NET Core
-Entity Framework Core
-HTML/CSS/JavaScript
-Bootstrap
-C# Programming Language
-SQL Server
-Getting Started
-To run the project locally, follow these steps:
+SEO & Accessibility
+- SEO-optimized URLs and metadata to boost search engine rankings.  
+- Accessibility features to ensure the platform is usable by everyone.  
 
-Clone the repository:
+Technology Stack  
 
-bash
-Copy code
-git clone <repository_url>
-Navigate to project directory:
+- Framework: ASP.NET Core  
+- Database: Entity Framework Core, SQL Server  
+- Frontend: HTML, CSS, JavaScript, Bootstrap  
+- Programming Language: C#  
 
-bash
-Copy code
-cd KhumaloCraftEcommerce
-Restore dependencies:
+Getting Started  
+Follow these steps to run the project locally:  
 
-Copy code
-dotnet restore
-Update database:
+1. Clone the Repository:  
+   ```bash  
+   git clone <repository_url>  
+ 
+2. Navigate to the Project Directory:  
+   bash  
+   cd KhumaloCraftEcommerce  
+   
+3. Restore Dependencies:  
+   bash  
+   dotnet restore  
+   
+4. Update the Database:  
+   bash  
+   dotnet ef database update  
+   
+5. Run the Application:  
+   bash  
+   dotnet run  
+   
+6. Open the Application:  
 
-sql
-Copy code
-dotnet ef database update
-Run the application:
-
-arduino
-Copy code
-dotnet run
-Open in your browser:
-
-arduino
-Copy code
-https://localhost:5001
-Contributing
-Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request.
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+License  
+This project is licensed under the **MIT License**. See the `LICENSE` file for more details.
